@@ -17,14 +17,7 @@ This project implements a Convolutional Neural Network (CNN) to classify skin le
   - Accuracy is the primary metric used for training and validation.
 
 ## Dataset Structure
-The dataset is organized into the following structure:
-- **train/**: Contains training images categorized into different skin lesion types.
-- **test/**: Contains test images categorized into different skin lesion types.
-
-Each folder represents a different type of lesion, with the images inside labeled according to their category.
-
-## Commit History
-Here’s a summary of the recent changes in the dataset:
+Here’s a summary of the the dataset:
 - **Added test and train files** for the following categories:
   - Actinic keratosis
   - Basal cell carcinoma
@@ -35,8 +28,6 @@ Here’s a summary of the recent changes in the dataset:
   - Seborrheic keratosis
   - Squamous cell carcinoma
   - Vascular lesion
-
-This update was made **5 days ago**.
 
 ## Design
 
