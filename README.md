@@ -93,7 +93,7 @@ To get started, clone the repository to your local machine:
 git clone https://github.com/gauranga08/Melanoma-Skin-Cancer-Detection.git
 cd Melanoma-Skin-Cancer-Detection
 
-**### Create a Virtual Environment**
+** ### Create a Virtual Environment **
 It is recommended to create a virtual environment to manage dependencies. Run the following command:
 
 bash
