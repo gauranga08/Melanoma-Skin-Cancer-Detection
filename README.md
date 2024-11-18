@@ -89,27 +89,27 @@ This update was made **5 days ago**.
 
 ### Clone the Repository
 1. To get started, clone the repository to your local machine:
-  ```bash
-  git clone https://github.com/gauranga08/Melanoma-Skin-Cancer-Detection.git
-  cd Melanoma-Skin-Cancer-Detection
+    ```bash
+    git clone https://github.com/gauranga08/Melanoma-Skin-Cancer-Detection.git
+    cd Melanoma-Skin-Cancer-Detection
 
 ### Create a Virtual Environment
 1. It is recommended to create a virtual environment to manage dependencies. Run the following command:
-  ```bash
-  python -m venv env
-  source env/bin/activate  # On Windows, use `env\Scripts\activate`
+    ```bash
+    python -m venv env
+    source env/bin/activate  # On Windows, use `env\Scripts\activate`
 ### Install Dependencies
 Install the required Python libraries using pip:
-
-  ```bash
-  pip install -r requirements.txt
+  
+    ```bash
+    pip install -r requirements.txt
 ### Dataset Setup
 Ensure your dataset follows the structure outlined in the Dataset Structure section. You should place the images in the appropriate train/ and test/ directories.
 
 ### Run the Notebook
 You can now run the Jupyter notebook to train and evaluate the model:
-  ```bash
-  melanoma_skin_detection.ipynb
+    ```bash
+    melanoma_skin_detection.ipynb
 
 ### Outputs
 - Training Logs: Training and validation accuracy and loss per epoch.
