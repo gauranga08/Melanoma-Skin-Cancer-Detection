@@ -1,0 +1,7 @@
+Augmentor
+pillow
+matplotlib
+numpy
+pandas
+seaborn
+tensorflow
