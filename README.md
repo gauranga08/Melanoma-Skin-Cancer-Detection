@@ -88,19 +88,18 @@ This update was made **5 days ago**.
 - TensorFlow and Keras installed.
 
 ### Clone the Repository
-To get started, clone the repository to your local machine:
+1. To get started, clone the repository to your local machine:
 ```bash
-git clone https://github.com/gauranga08/Melanoma-Skin-Cancer-Detection.git
-cd Melanoma-Skin-Cancer-Detection
+2. git clone https://github.com/gauranga08/Melanoma-Skin-Cancer-Detection.git
+3. cd Melanoma-Skin-Cancer-Detection
 
-** ### Create a Virtual Environment **
-It is recommended to create a virtual environment to manage dependencies. Run the following command:
+## Create a Virtual Environment
+1. It is recommended to create a virtual environment to manage dependencies. Run the following command:
 
-bash
-Copy code
-python -m venv env
-source env/bin/activate  # On Windows, use `env\Scripts\activate`
-### Install Dependencies
+  ```bash
+  python -m venv env
+  source env/bin/activate  # On Windows, use `env\Scripts\activate`
+2. ### Install Dependencies
 Install the required Python libraries using pip:
 
 bash
