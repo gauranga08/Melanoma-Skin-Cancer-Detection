@@ -33,15 +33,11 @@ Here’s a summary of the the dataset:
 
 ### Process Flow
 
-1. **Data Loading**:
+1. **Data Loading and Preprocessing**:
    - Images are loaded using TensorFlow's `image_dataset_from_directory` utility.
    - The data is split into training and validation datasets, with a separate test dataset.
 
-2. **Data Preprocessing**:
-   - Resized images to the required input dimensions (224x224x3).
-   - Pixel values normalized to a [0, 1] range for stability during training.
-
-3. **Model Architecture**:
+2. **Model Architecture**:
    - **Convolutional Layers**: Extract meaningful features from images.
    - **Pooling Layers**: Reduce spatial dimensions to simplify learning.
    - **Dropout Layers**: Prevent overfitting.
@@ -52,25 +48,7 @@ Here’s a summary of the the dataset:
    - The validation loss is monitored to determine when training stops.
 
 5. **Evaluation**:
-   - Accuracy is calculated on the test dataset to measure the model's performance.
-
-## Key Features
-
-### Model Architecture
-- **Input shape**: 224x224x3 (RGB images).
-- **Convolutional layers**: Learn spatial features.
-- **Max pooling**: Reduce spatial dimensionality.
-- **Dropout**: Regularization to prevent overfitting.
-- **Dense layer**: Final layer with sigmoid activation for binary classification.
-
-### Preprocessing
-- **Resizing** to 224x224.
-- **Normalizing** pixel values to the range [0, 1].
-
-### Training Process
-- **Loss Function**: Binary cross-entropy.
-- **Optimizer**: Adam.
-- **Early Stopping**: Stops training when validation loss stops improving.
+   - Accuracy is calculated
 
 ## Setup Instructions
 
@@ -90,7 +68,7 @@ Here’s a summary of the the dataset:
     python -m venv env
     source env/bin/activate  # On Windows, use `env\Scripts\activate`
 ### Install Dependencies
-Install the required Python libraries using pip:
+1. Install the required Python libraries using pip:
   
     ```bash
     pip install -r requirements.txt
