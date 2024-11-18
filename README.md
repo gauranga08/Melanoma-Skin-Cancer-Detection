@@ -79,11 +79,7 @@ Ensure your dataset follows the structure outlined in the Dataset Structure sect
 You can now run the Jupyter notebook to train and evaluate the model:
     ```bash
     melanoma_skin_detection.ipynb
-
-### Outputs
-- Training Logs: Training and validation accuracy and loss per epoch.
-- Final Test Accuracy: Evaluated on the test dataset.
-- Saved Model: The trained model is saved locally for future predictions.
+    
 ### Scope for Improvement
 ## Missing Metrics
 **Precision, Recall, and F1 Score**: Add these metrics to better evaluate the model's performance, especially for unbalanced datasets.
