@@ -6,10 +6,10 @@ This project implements a Convolutional Neural Network (CNN) to classify skin le
 ## Technology Overview
 - **Framework**: TensorFlow and Keras are used to design, train, and evaluate the CNN model.
 - **Dataset**:
-  - Images are structured in `train/` and `test/` directories, categorized into `benign/` and `malignant/` subfolders.
+  - Images are structured in `Train/` and `Test/` directories, categorized into `benign/` and `malignant/` subfolders.
 - **Preprocessing**:
-  - Images are resized to a uniform shape (e.g., 224x224).
-  - Pixel values are normalized to the range [0, 1].
+  - Images are resized to a uniform shape (e.g., 180x180).
+  - Resizing, normalization, and augmentation techniques (rotation, flipping, zooming) improve robustness.
 - **Training Configuration**:
   - Optimizer: Adam
   - Loss Function: Binary cross-entropy
