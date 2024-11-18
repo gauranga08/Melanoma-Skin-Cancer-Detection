@@ -73,27 +73,24 @@ Here’s a summary of the the dataset:
     ```bash
     pip install -r requirements.txt
 ### Dataset Setup
-Ensure your dataset follows the structure outlined in the Dataset Structure section. You should place the images in the appropriate train/ and test/ directories.
+Ensure your dataset follows the structure outlined in the Dataset Structure section. You should place the images in the appropriate Train/ and Test/ directories.
 
 ### Run the Notebook
-You can now run the Jupyter notebook to train and evaluate the model:
-    ```bash
-    melanoma_skin_detection.ipynb
-    
-### Scope for Improvement
-## Missing Metrics
+You can now run the Jupyter notebook to train and evaluate the model
+## Scope for Improvement
+### Missing Metrics
 **Precision, Recall, and F1 Score**: Add these metrics to better evaluate the model's performance, especially for unbalanced datasets.
 **ROC-AUC**: Implement ROC-AUC and plot the ROC curve for detailed classification evaluation.
-## Visualization
+### Visualization
 **Grad-CAM**: Visualize which parts of an image the model focuses on for predictions, enhancing interpretability.
 **Confusion Matrix**: Display the confusion matrix to better understand model performance, including false positives and false negatives.
-## Advanced Techniques
+### Advanced Techniques
 **Transfer Learning**: Use pre-trained models like ResNet, InceptionNet, or EfficientNet to improve accuracy and reduce training time.
 **Augmentation**: Apply random flips, rotations, and zooming to improve generalization.
 **Hyperparameter Tunin**g: Optimize learning rates, batch sizes, and other hyperparameters for better performance.
 **Cross-Validation**: Use K-fold cross-validation to validate the model on multiple splits of the dataset.
 **Explainability**: Leverage tools like SHAP or LIME to explain individual predictions.
-## Deployment
+### Deployment
 Package the model into a web application using Flask, FastAPI, or Streamlit for real-world usability.
 ## Acknowledgments
 This project draws inspiration from various public datasets and deep learning practices aimed at improving medical diagnostics.
